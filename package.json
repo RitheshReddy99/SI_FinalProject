@@ -1,0 +1,29 @@
+{
+  "name": "si_finalproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RitheshReddy99/SI_FinalProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RitheshReddy99/SI_FinalProject/issues"
+  },
+  "homepage": "https://github.com/RitheshReddy99/SI_FinalProject#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.16",
+    "uuid": "^8.3.2"
+  }
+}
