@@ -74,7 +74,7 @@ app.get("/text-detect", (req, res) => {
   });
 });
 
-app.post("/document", (req, res) => {
+app.post("/document-translate", (req, res) => {
   let toLang = req.query.to;
 
   let body = {
