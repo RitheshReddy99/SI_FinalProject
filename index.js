@@ -76,7 +76,7 @@ const TRANSLATE_END_POINT =
  *         required: true
  *         schema:
  *           type: string
- *           example: I am a human
+ *           example: [{"text": "Enter your text here"}]
  *     responses:
  *       200:
  *         description: Document Translated successfully.
@@ -130,7 +130,7 @@ app.post("/text", (req, res) => {
  *         required: true
  *         schema:
  *           type: string
- *           example: I am a human
+ *           example: [{"text": "Enter your text here"}]
  *     responses:
  *       200:
  *         description: Document language found.
